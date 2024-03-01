@@ -93,9 +93,7 @@ namespace ConsoleApp1
                                 
                                 if(double.IsInfinity(left))
                                 {
-                                    errorMessage = $"Ошибка: переполнение.";
-                                    left = double.PositiveInfinity;
-                                    nextStep = 6;
+                                    errorMessage = $"Ошибка: переполнение.";                                   
                                 }
                                 
                                 x++;
